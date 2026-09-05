@@ -2,7 +2,7 @@
 
 Concurrent evidence review for public software bounties, built with Mozaik 4.0.5.
 
-**Status: hackathon work in progress. Replay and mocked-provider tests pass. A local Qwen3 inference experiment produced an incorrect diagnostic finding, and full concurrent runs were manually stopped without a completed result. Reliable live review and final contest submission remain incomplete. This project has earned no money.**
+**Status: initial hackathon entry submitted on 5 September 2026; the official page confirmed receipt. Reliable live review remains incomplete. Replay and mocked-provider tests pass. A local Qwen3 inference experiment produced an incorrect diagnostic finding, and full concurrent runs were manually stopped without a completed result. Submission receipt does not establish judging eligibility or a prize. This project has earned no money.**
 
 A large advertised reward can hide an already assigned task, existing submissions, or unresolved payment conditions. BountyProof collects a bounded public GitHub snapshot and lets availability, payment, and eligibility agents review it concurrently. A critic reacts to shared evidence revisions. When new evidence arrives during its review, the stale review is discarded and a new one runs.
 
