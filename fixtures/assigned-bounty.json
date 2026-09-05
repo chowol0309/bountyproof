@@ -1,0 +1,24 @@
+{
+  "title": "Public bounty triage: Tenstorrent issue #55502",
+  "description": "Small historical evidence snapshot for an explicitly labelled replay. This is not a current availability or payout verification.",
+  "sources": [
+    {
+      "id": "assignment",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55502#issuecomment-5543904159",
+      "observedAt": "2026-09-05 (Asia/Seoul; date only)",
+      "text": "Public maintainer comment observed on 2026-09-05 (Korea date; exact capture time not recorded): Please see my earlier comment that this is already assigned. Do not continue to request assignment to this bounty"
+    },
+    {
+      "id": "issue-summary",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55502",
+      "observedAt": "2026-09-05 (Asia/Seoul; date only)",
+      "text": "Researcher summary of a public issue snapshot, not a verbatim source: the title advertises a USD 5,000 reward for INT_MIN correctness fixes. The announcement points to program terms. This bundle does not contain verified payout records, the full terms, or the applicant's hardware capabilities. Do not infer eligibility or guaranteed payment from this summary."
+    }
+  ],
+  "replayAnswers": {
+    "availability": { "verdict": "BLOCK", "summary": "The maintainer explicitly says the bounty is already assigned. Do not start speculative work on this snapshot.", "evidence": [{ "sourceId": "assignment", "quote": "this is already assigned" }] },
+    "payment": { "verdict": "VERIFY", "summary": "A stated reward is visible in the researcher summary; payout and full conditions are not verified by this bundle.", "evidence": [{ "sourceId": "issue-summary", "quote": "does not contain verified payout records" }] },
+    "eligibility": { "verdict": "VERIFY", "summary": "The full program terms and the applicant's hardware capabilities still require verification.", "evidence": [{ "sourceId": "issue-summary", "quote": "the full terms, or the applicant's hardware capabilities" }] },
+    "critic": { "verdict": "BLOCK", "summary": "The explicit assignment is enough to stop speculative implementation; a reward amount does not override that restriction.", "evidence": [{ "sourceId": "assignment", "quote": "Do not continue to request assignment to this bounty" }] }
+  }
+}
