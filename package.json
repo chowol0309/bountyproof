@@ -1,0 +1,23 @@
+{
+  "name": "bountyproof",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Concurrent evidence review for public software bounties, built with Mozaik",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "demo": "node src/cli.mjs --replay fixtures/assigned-bounty.json",
+    "test": "node --test",
+    "audit:live": "node src/cli.mjs --live",
+    "collect": "node src/collect.mjs",
+    "demo:local": "node src/local-cli.mjs"
+  },
+  "dependencies": {
+    "@mozaik-ai/core": "4.0.5"
+  },
+  "devDependencies": {
+    "node-llama-cpp": "3.20.0"
+  }
+}
